@@ -105,6 +105,16 @@
 									<p>
 										O Laravel Starter é <b>gratuito</b>. Para ter suporte as funcionalidades e dúvidas você pode comprar ele no CodeCanyon.
 									</p>
+									<p>
+										Para demonstrações utilize os seguintes usuários: <br/>
+										<h6>Usuário Administrador</h6>
+										<b>Email: </b>admindemo@domain.com<br/>
+										<b>Senha: </b>secret<br/><br/>
+										ou<br/><br/>
+										<h6>Usuário Comum (com limitações)</h6>
+										<b>Email: </b>demo@domain.com<br/>
+										<b>Senha: </b>secret<br/>
+									</p>
 								</header>
 								<footer class="major">
 									<ul class="actions">
