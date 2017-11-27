@@ -6,7 +6,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="{{ asset('img/logo.png') }}" class=""
+                <img src="{{ asset('images/logo.png') }}" class=""
                      alt="User Image"/>
             </div>
             <div class="pull-left info">
