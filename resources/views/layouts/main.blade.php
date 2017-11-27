@@ -52,7 +52,7 @@
 											Como o Laravel Starter você tem ACL nativa (e os cruds necessários), template AdminLTE painel de administração e a possibilidade de trabalhar com múltiplos idiomas.
 										</p>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="{{ asset('images/logo-laravel.svg') }}" alt="" /></span>
 								</div>
 							</section>
 
@@ -108,8 +108,9 @@
 								</header>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="#" class="button special">Comprar</a></li>
-										<li><a href="#" class="button">Baixar <smal>(sem suporte)</smal></a></li>
+										<li><a href="http://lstarter.webmoderna.com.br/admin" class="button">Demonstração</smal></a></li>
+										<li><a href="#" class="button special">Comprar (em breve)</a></li>
+										<li><a href="https://github.com/dpossas/lstarter" target="_blank" class="button">Baixar <smal>(sem suporte)</smal></a></li>
 									</ul>
 								</footer>
 							</section>
@@ -119,12 +120,12 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Sobre o Author</h2>
+							<h2>Sobre o Autor</h2>
 							<p>
 								Me chamo Douglas Bezerra Possas e sou apaixonado por desenvolvimento web desde 1997. Entusiasta PHP tenho trabalhado com Laravel desde a versão 4.2.
 							</p>
 							<ul class="actions">
-								<li><a href="#" class="button">Acese meu CV</a></li>
+								<li><a href="http://webmoderna.com.br/douglas/CV-Europass-20171124-BezerraPossas-PT.pdf" class="button">Acesse meu CV</a></li>
 							</ul>
 						</section>
 						<section>
@@ -135,20 +136,20 @@
 							</dl>
 							<ul class="icons">
 								<li>
-									<a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a>
+									<a href="https://twitter.com/dpossas" class="icon fa-twitter alt" target="_blank"><span class="label">Twitter</span></a>
 								</li>
 								<li>
-									<a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a>
+									<a href="https://www.facebook.com/douglasbezerrapossas/" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a>
 								</li>
 								<li>
-									<a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a>
+									<a href="https://github.com/dpossas" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a>
 								</li>
 								<li>
-									<a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a>
+									<a href="https://www.linkedin.com/in/douglaspossas" target="_blank" class="icon fa-linkedin alt"><span class="label">Dribbble</span></a>
 								</li>
 							</ul>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<p class="copyright">&copy; lStarter. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
