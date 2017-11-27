@@ -139,7 +139,7 @@
 							</ul>
 						</section>
 						<section>
-							<h2>Fale Comgo</h2>
+							<h2>Fale Comigo</h2>
 							<dl class="alt">
 								<dt>Email</dt>
 								<dd><a href="#">douglaspossas@gmail.com</a></dd>
