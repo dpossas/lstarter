@@ -33,7 +33,7 @@
 							<li><a href="#about" class="active">Sobre</a></li>
 							<li><a href="#packages">Pacotes</a></li>
 							<li><a href="#nativeacl">ACL Nativa</a></li>
-							<li><a href="#downloadnow">Compre / Baixe</a></li>
+							<li><a href="#downloadnow">Teste / Compre / Baixe</a></li>
 						</ul>
 					</nav>
 
