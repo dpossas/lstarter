@@ -108,7 +108,7 @@
 									<p>
 										Para demonstrações utilize os seguintes usuários: <br/>
 										<h6>Usuário Administrador</h6>
-										<b>Email: </b>admindemo@domain.com<br/>
+										<b>Email: </b>demoadmin@domain.com<br/>
 										<b>Senha: </b>secret<br/><br/>
 										ou<br/><br/>
 										<h6>Usuário Comum (com limitações)</h6>
