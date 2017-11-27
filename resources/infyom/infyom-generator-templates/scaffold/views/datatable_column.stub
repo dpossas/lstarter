@@ -1,0 +1,1 @@
+'$FIELD_NAME$' => ['title' => trans('modules.$MODEL_NAME_PLURAL_SNAKE$.fields.$FIELD_NAME$')]

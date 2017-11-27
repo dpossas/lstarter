@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('content')
+    <section class="content-header">
+        <h1>
+            @lang('modules.$MODEL_NAME_PLURAL_SNAKE$.title')
+        </h1>
+    </section>
+    <div class="content">
+        @include('adminlte-templates::common.errors')
+
+        {!! Form::model($$MODEL_NAME_CAMEL$, ['route' => ['$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.update', $$MODEL_NAME_CAMEL$->$PRIMARY_KEY_NAME$], 'method' => 'patch']) !!}
+
+            @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
+
+        {!! Form::close() !!}
+    </div>
+@endsection

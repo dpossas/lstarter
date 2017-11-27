@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('content')
+    <section class="content-header">
+        <h1>
+            @lang('modules.$MODEL_NAME_PLURAL_SNAKE$.title')
+        </h1>
+    </section>
+    <div class="content">
+        @include('adminlte-templates::common.errors')
+        
+        {!! Form::open(['route' => '$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store']) !!}
+
+            @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
+
+        {!! Form::close() !!}
+    </div>
+@endsection

@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="box box-primary">
+            <div class="box-body">
+                <div class="row">
+                    $FIELDS$
+                </div>
+            </div>
+            <div class="box-footer">
+                <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index') !!}" class="btn btn-default">@lang('buttons.cancel')</a>
+                {!! Form::submit(trans('buttons.save'), ['class' => 'btn btn-primary pull-right']) !!}
+            </div>
+        </div>
+    </div>
+</div>
