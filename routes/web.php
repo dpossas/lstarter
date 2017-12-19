@@ -12,8 +12,6 @@
 */
 
 Route::get('/', 'SiteController@index');
-Route::post('/contato', function(){})->name('contato');
-Route::post('/newsletter/assinar', function(){})->name('newsletter.assinar');
 
 Auth::routes();
 
@@ -31,4 +29,10 @@ Route::group(['prefix' => '/admin', 'middleware' => 'auth'], function(){
     Route::resource('permissions', 'PermissionController');
     
     Route::resource('users', 'UserController');
+});
+
+Route::prefix('/documentation')->group(function(){
+    Route::get('/', 'DocumentationController@index')->name('documentation.index');
+    Route::get('/requirements', 'DocumentationController@requirements')->name('documentation.requirements');
+    Route::get('/installation', 'DocumentationController@installation')->name('documentation.installation');
 });
