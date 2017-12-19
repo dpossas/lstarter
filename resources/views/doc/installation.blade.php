@@ -64,7 +64,15 @@ DB_PASSWORD=your_password
         When seed the system data, this will create some default logins:
 
         <ul>
-            <li><del>SuperAdmin - email: <code>admin@domain.com</code>, password: <code>secret</code></del> <b class="text-danger">DISABLED IN LIVE PREVIEW</b></li>
+            <li>
+                SuperAdmin - email: <code>admin@domain.com</code>, password: <code>secret</code> <b class="text-danger">DISABLED IN LIVE PREVIEW</b>
+                <ul>
+                    <li>
+                        Generate Super Admin: <br/>
+                        <code>php artisan db:seed --class=SuperAdministratorSeeder</code><br/><br/>
+                    </li>
+                </ul>
+            </li>
             <li>Demo Admin - email: <code>demoadmin@domain.com</code>, password: <code>secret</code></li>
             <li>Demo User - email: <code>demo@domain.com</code>, password: <code>secret</code></li>
         </ul>
