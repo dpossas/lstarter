@@ -5,12 +5,14 @@ Projeto desenvolvido em Laravel 5.5 + ACL Nativa + AdminLTE + InfyomGenerator
 http://lstarter.webmoderna.com.br
 
 - usuario comum
- - email: demo@domain.com
- - senha secret
+
+  email: demo@domain.com
+  senha: secret
 
 - usuario admin
- - email: demoadmin@domain.com
- - senha: secret
+
+  email: demoadmin@domain.com
+  senha: secret
 
 # Documentação
 http://lstarter.webmoderna.com.br/documentation
