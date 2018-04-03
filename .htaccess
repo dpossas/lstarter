@@ -1,4 +1,4 @@
-AddHandler application/x-httpd-php70 .php
+AddHandler application/x-httpd-php71 .php
 
 RewriteEngine On
 
