@@ -93,7 +93,7 @@
 									<p>Não dependa de pacotes de terceiros para ter a segurança de seu sistema</p>
 								</header>
 								<p class="content">
-									Faça uso somente as funcionalidades disponíveis no Laravel Framework para manter a integridade e segurança de suas 
+									Faça uso somente as funcionalidades disponíveis no Laravel Framework para manter a integridade e segurança de suas
 									informações atrvés de Papéis/Funções, Permissões e Usuários.
 								</p>
 							</section>
@@ -118,7 +118,7 @@
 								</header>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="http://lstarter.webmoderna.com.br/admin" class="button">Demonstração</smal></a></li>
+										<li><a href="{{ route('admin.home') }}" class="button">Demonstração</smal></a></li>
 										<li><a href="#" class="button special">Comprar (em breve)</a></li>
 										<li><a href="https://github.com/dpossas/lstarter" target="_blank" class="button">Baixar <smal>(sem suporte)</smal></a></li>
 									</ul>
