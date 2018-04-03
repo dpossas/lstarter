@@ -15,7 +15,7 @@
 
       gtag('config', 'UA-116407373-1');
     </script>
-		
+
 		<title>lStarter - Laravel + InfyOm + ACL Nativa + Multi Idiomas</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -157,16 +157,19 @@
 							</dl>
 							<ul class="icons">
 								<li>
-									<a href="https://twitter.com/dpossas" class="icon fa-twitter alt" target="_blank"><span class="label">Twitter</span></a>
+									<a href="https://www.facebook.com/douglasbezerrapossas/" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a>
 								</li>
 								<li>
-									<a href="https://www.facebook.com/douglasbezerrapossas/" target="_blank" class="icon fa-facebook alt"><span class="label">Facebook</span></a>
+									<a href="https://www.youtube.com/channel/UCjrkH176Ni8gPlQFXW0UYWQ" target="_blank" class="icon fa-youtube alt"><span class="label">Youtube</span></a>
 								</li>
 								<li>
 									<a href="https://github.com/dpossas" target="_blank" class="icon fa-github alt"><span class="label">GitHub</span></a>
 								</li>
 								<li>
 									<a href="https://www.linkedin.com/in/douglaspossas" target="_blank" class="icon fa-linkedin alt"><span class="label">Dribbble</span></a>
+								</li>
+								<li>
+									<a href="https://twitter.com/dpossas" class="icon fa-twitter alt" target="_blank"><span class="label">Twitter</span></a>
 								</li>
 							</ul>
 						</section>
