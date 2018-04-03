@@ -119,6 +119,7 @@
 								<footer class="major">
 									<ul class="actions">
 										<li><a href="{{ route('admin.home') }}" class="button">Demonstração</smal></a></li>
+										<li><a href="{{ route('documentation.index') }}" class="button" style="background-color: darkgreen !important; color: white !important;">Documentação</a></li>
 										<li><a href="#" class="button special">Comprar (em breve)</a></li>
 										<li><a href="https://github.com/dpossas/lstarter" target="_blank" class="button">Baixar <smal>(sem suporte)</smal></a></li>
 									</ul>
